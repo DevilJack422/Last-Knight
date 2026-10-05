@@ -123,7 +123,7 @@ public class SlimeAI : MonoBehaviour
 
         yield return new WaitForSeconds(attackCooldown);
 
-        state = State.Patrol;
+        state = State.Patrol; //Update se tu dong chon lai trang thai o frame sau
     }
 
     public void DealDamageToPlayer()
