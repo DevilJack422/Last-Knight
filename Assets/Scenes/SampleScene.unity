@@ -2252,7 +2252,7 @@ Transform:
   m_GameObject: {fileID: 1264341628}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.24, y: 0.61, z: 0}
+  m_LocalPosition: {x: 0.83, y: 0.61, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2301,13 +2301,15 @@ GameObject:
   - component: {fileID: 1683176885}
   - component: {fileID: 1683176884}
   - component: {fileID: 1683176882}
+  - component: {fileID: 1683176893}
   - component: {fileID: 1683176887}
   - component: {fileID: 1683176889}
   - component: {fileID: 1683176888}
   - component: {fileID: 1683176892}
   - component: {fileID: 1683176891}
   - component: {fileID: 1683176890}
-  - component: {fileID: 1683176893}
+  - component: {fileID: 1683176895}
+  - component: {fileID: 1683176894}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -2487,7 +2489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAttack
   damage: 10
-  attackRange: 0.68
+  attackRange: 0.5
   attackCoolDown: 0.5
   attackPoint: {fileID: 1264341629}
   enemyLayer:
@@ -2556,6 +2558,35 @@ CapsuleCollider2D:
   m_Offset: {x: -0.07630801, y: 0.720245}
   m_Size: {x: 0.67783403, y: 1.3114889}
   m_Direction: 0
+--- !u!114 &1683176894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683176881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1dd000c7edfc6e469cd1eaa87993ff2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerBlockEffect
+  flashPrefab: {fileID: 5857545037864794521, guid: 33e19a1a975e7ef4c95c9bc4fd2602d2, type: 3}
+  offset: {x: 0.6, y: 1}
+--- !u!114 &1683176895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683176881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57d390bf422fb3f4797abf4f60ca675b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerBlock
+  blockCoolDown: 0.5
+  onlyBlockFont: 1
+  breakOnBlockedHit: 1
 --- !u!1 &1801104878
 GameObject:
   m_ObjectHideFlags: 0
@@ -2617,7 +2648,7 @@ MonoBehaviour:
   damage: 10
   knockBackForce: 0.5
   attackRange: 0.7
-  attackCooldown: 1
+  attackCooldown: 2
   playerLayer:
     serializedVersion: 2
     m_Bits: 256
@@ -2801,7 +2832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a806963482b601940986aa328312d2c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyReaction
-  deathDelay: 1
+  deathDelay: 0.35
 --- !u!1 &1806843659
 GameObject:
   m_ObjectHideFlags: 0

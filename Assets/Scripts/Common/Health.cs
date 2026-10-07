@@ -6,6 +6,8 @@ public class Health : MonoBehaviour, IDamageable
     [Header("Health")]
     [SerializeField] private int maxHealth = 100;
 
+    private IDamageBlocker blocker;
+
     //Action cho thanh mau <current, max>
     public event Action<int, int> HealthChanged;
     //Action hit <nguon sat thuong, luc day>
@@ -19,11 +21,17 @@ public class Health : MonoBehaviour, IDamageable
     void Awake()
     {
         currentHealth = maxHealth;
+        blocker = GetComponent<IDamageBlocker>();
     }
 
     public void TakeDamage(int damage, Vector2 damageSource, float knockBackForce)
     {
         if (IsDead) return;
+        if (blocker != null && blocker.TryBlock(damageSource))
+        {
+            Debug.Log("Attack blocked");
+            return;
+        }
 
         currentHealth = Mathf.Clamp(currentHealth - damage, 0, maxHealth);
 

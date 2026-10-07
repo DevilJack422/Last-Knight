@@ -16,6 +16,7 @@ public class PlayerAttack : MonoBehaviour
     private Animator animator;
     private Health health;
     private PlayerMovement movement;
+    private PlayerBlock block;
     private float lastAttackTime = -999f;
 
     void Awake()
@@ -23,11 +24,12 @@ public class PlayerAttack : MonoBehaviour
         health = GetComponent<Health>();
         movement = GetComponent<PlayerMovement>();
         animator = GetComponent<Animator>();
+        block = GetComponent<PlayerBlock>();
     }
 
     void Update()
     {
-        if (health.IsDead) return;
+        if (health.IsDead || (block != null && block.IsBlocking)) return;
 
         AlignAttackPoint();
 

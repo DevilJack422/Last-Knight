@@ -67,5 +67,245 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Last Knight.slnx"
+    "dotnet.defaultSolution": "Last Knight.slnx",
+    "editor.fontFamily": "'MonoLisaCode Trial', Menlo, Monaco, 'Courier New', monospace",
+    "terminal.integrated.fontFamily": "'MonoLisaCode Trial', Menlo, Monaco, 'Courier New', monospace",
+    "debug.console.fontFamily": "'MonoLisaCode Trial', Menlo, Monaco, 'Courier New', monospace",
+    "scm.inputFontFamily": "'MonoLisaCode Trial', Menlo, Monaco, 'Courier New', monospace",
+    "chat.editor.fontFamily": "'MonoLisaCode Trial', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "editor.fontWeight": 700,
+    "editor.lineHeight": 1.5,
+    "editor.fontLigatures": false,
+    "monolisa.commercialCodeSuffix": "",
+    "workbench.colorTheme": "MonoLisa Dark",
+    "workbench.colorCustomizations": {
+        "[MonoLisa Dark][__monolisa_theme_tuning_owner_v1_17cf9558__]": {
+            "activityBar.background": "#122a40",
+            "activityBar.foreground": "#cce5ff",
+            "activityBarBadge.background": "#e8c44a",
+            "activityBarBadge.foreground": "#122a40",
+            "badge.background": "#82b8ff",
+            "badge.foreground": "#122a40",
+            "button.background": "#e8c44a",
+            "button.foreground": "#122a40",
+            "button.hoverBackground": "#82b8ff",
+            "dropdown.background": "#122a40",
+            "dropdown.border": "#7391b56b",
+            "editor.background": "#122a40",
+            "editor.foreground": "#cce5ff",
+            "editor.findMatchBackground": "#e8c44a61",
+            "editor.findMatchHighlightBackground": "#82b8ff38",
+            "editor.inactiveSelectionBackground": "#82b8ff2e",
+            "editor.lineHighlightBackground": "#cce5ff0f",
+            "editor.selectionBackground": "#82b8ff52",
+            "editorCursor.foreground": "#e8c44a",
+            "editorIndentGuide.activeBackground1": "#82b8ff6b",
+            "editorIndentGuide.background1": "#7391b533",
+            "editorLineNumber.activeForeground": "#cce5ff",
+            "editorLineNumber.foreground": "#7391b5",
+            "editorWidget.background": "#122a40",
+            "editorWidget.border": "#7391b56b",
+            "focusBorder": "#e8c44a",
+            "input.background": "#122a40",
+            "input.border": "#7391b56b",
+            "input.foreground": "#cce5ff",
+            "list.activeSelectionBackground": "#82b8ff52",
+            "list.activeSelectionForeground": "#cce5ff",
+            "list.hoverBackground": "#82b8ff2e",
+            "panel.background": "#122a40",
+            "panel.border": "#7391b56b",
+            "sideBar.background": "#122a40",
+            "sideBar.border": "#7391b56b",
+            "sideBar.foreground": "#cce5ff",
+            "sideBarTitle.foreground": "#cce5ff",
+            "statusBar.background": "#e8c44a",
+            "statusBar.foreground": "#122a40",
+            "statusBar.noFolderBackground": "#82b8ff",
+            "tab.activeBackground": "#122a40",
+            "tab.activeForeground": "#cce5ff",
+            "tab.border": "#7391b56b",
+            "tab.inactiveBackground": "#7391b559",
+            "tab.inactiveForeground": "#7391b5",
+            "terminal.ansiBlack": "#122a40",
+            "terminal.ansiBlue": "#82b8ff",
+            "terminal.ansiBrightBlack": "#7391b5",
+            "terminal.ansiBrightBlue": "#fff6e6",
+            "terminal.ansiBrightCyan": "#6eb8d4",
+            "terminal.ansiBrightGreen": "#b8d4a0",
+            "terminal.ansiBrightMagenta": "#e8c44a",
+            "terminal.ansiBrightRed": "#f14c4c",
+            "terminal.ansiBrightWhite": "#cce5ff",
+            "terminal.ansiBrightYellow": "#e18d5f",
+            "terminal.ansiCyan": "#6eb8d4",
+            "terminal.ansiGreen": "#b8d4a0",
+            "terminal.ansiMagenta": "#e8c44a",
+            "terminal.ansiRed": "#cd3131",
+            "terminal.ansiWhite": "#cce5ff",
+            "terminal.ansiYellow": "#e18d5f",
+            "terminal.background": "#122a40",
+            "terminal.foreground": "#cce5ff",
+            "titleBar.activeBackground": "#122a40",
+            "titleBar.activeForeground": "#cce5ff",
+            "titleBar.border": "#7391b56b"
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[MonoLisa Dark][__monolisa_theme_tuning_owner_v1_17cf9558__]": {
+            "textMateRules": [
+                {
+                    "name": "MonoLisa: Theme tuning / source",
+                    "scope": [
+                        "source",
+                        "text"
+                    ],
+                    "settings": {
+                        "foreground": "#cce5ff"
+                    }
+                },
+                {
+                    "name": "MonoLisa: Theme tuning / comments",
+                    "scope": [
+                        "comment",
+                        "punctuation.definition.comment"
+                    ],
+                    "settings": {
+                        "foreground": "#7e91a6"
+                    }
+                },
+                {
+                    "name": "MonoLisa: Theme tuning / keywords",
+                    "scope": [
+                        "keyword",
+                        "storage",
+                        "storage.type"
+                    ],
+                    "settings": {
+                        "foreground": "#e8c44a"
+                    }
+                },
+                {
+                    "name": "MonoLisa: Theme tuning / numbers",
+                    "scope": [
+                        "constant.numeric",
+                        "constant.language",
+                        "support.constant"
+                    ],
+                    "settings": {
+                        "foreground": "#e18d5f"
+                    }
+                },
+                {
+                    "name": "MonoLisa: Theme tuning / strings",
+                    "scope": [
+                        "string",
+                        "constant.other.symbol"
+                    ],
+                    "settings": {
+                        "foreground": "#b8d4a0"
+                    }
+                },
+                {
+                    "name": "MonoLisa: Theme tuning / variables",
+                    "scope": [
+                        "variable",
+                        "variable.other",
+                        "support.variable"
+                    ],
+                    "settings": {
+                        "foreground": "#e2cb7a"
+                    }
+                },
+                {
+                    "name": "MonoLisa: Theme tuning / functions",
+                    "scope": [
+                        "entity.name.function",
+                        "support.function"
+                    ],
+                    "settings": {
+                        "foreground": "#fff6e6"
+                    }
+                },
+                {
+                    "name": "MonoLisa: Theme tuning / types",
+                    "scope": [
+                        "entity.name.type",
+                        "support.class",
+                        "entity.name.class"
+                    ],
+                    "settings": {
+                        "foreground": "#82b8ff"
+                    }
+                },
+                {
+                    "name": "MonoLisa: Theme tuning / tags",
+                    "scope": [
+                        "entity.name.tag",
+                        "punctuation.definition.tag"
+                    ],
+                    "settings": {
+                        "foreground": "#e18d5f"
+                    }
+                },
+                {
+                    "name": "MonoLisa: Theme tuning / attributes",
+                    "scope": [
+                        "entity.other.attribute-name"
+                    ],
+                    "settings": {
+                        "foreground": "#82b8ff"
+                    }
+                },
+                {
+                    "name": "MonoLisa: Theme tuning / properties",
+                    "scope": [
+                        "variable.other.property",
+                        "support.type.property-name"
+                    ],
+                    "settings": {
+                        "foreground": "#6eb8d4"
+                    }
+                },
+                {
+                    "name": "MonoLisa: Theme tuning / operators",
+                    "scope": [
+                        "keyword.operator",
+                        "punctuation",
+                        "meta.brace"
+                    ],
+                    "settings": {
+                        "foreground": "#c8a87a"
+                    }
+                },
+                {
+                    "name": "MonoLisa: Theme tuning / meta",
+                    "scope": [
+                        "meta",
+                        "meta.object-literal.key"
+                    ],
+                    "settings": {
+                        "foreground": "#9ab8d4"
+                    }
+                }
+            ]
+        }
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "[MonoLisa Dark][__monolisa_theme_tuning_owner_v1_17cf9558__]": {
+            "rules": {
+                "class": "#82b8ff",
+                "comment": "#7e91a6",
+                "enumMember": "#e18d5f",
+                "function": "#fff6e6",
+                "keyword": "#e8c44a",
+                "number": "#e18d5f",
+                "operator": "#c8a87a",
+                "parameter": "#e2cb7a",
+                "property": "#6eb8d4",
+                "string": "#b8d4a0",
+                "type": "#82b8ff",
+                "variable": "#e2cb7a"
+            }
+        }
+    }
 }

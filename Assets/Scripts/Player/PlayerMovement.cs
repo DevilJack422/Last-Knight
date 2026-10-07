@@ -23,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Health health;
     private PlayerHitReaction hitReaction;
+    private PlayerBlock block;
     private bool canDoubleJump;
 
     public bool IsGrounded { get; private set; }
@@ -35,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         health = GetComponent<Health>();
         hitReaction = GetComponent<PlayerHitReaction>();
+        block = GetComponent<PlayerBlock>();
     }
 
     void Update()
@@ -51,6 +53,11 @@ public class PlayerMovement : MonoBehaviour
         Jump();
 
         if (hitReaction.IsKnockedBack) return;
+
+        if (block != null && block.IsBlocking)
+        {
+            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+        }
 
         Move();
     }
