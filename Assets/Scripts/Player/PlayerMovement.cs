@@ -1,12 +1,15 @@
-using UnityEditor.Tilemaps;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D), typeof(Health), typeof(PlayerHitReaction))]
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Health))]
+[RequireComponent(typeof(PlayerHitReaction))]
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private AudioClip moveSfx;
     [SerializeField] private float jumpForce = 10f;
+    [SerializeField] private AudioClip jumpSfx;
     [SerializeField, Range(0f, 1f)] private float doubleJumpMultiplier = 0.75f;
 
     [Header("Ground Check")]
@@ -25,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
     private PlayerHitReaction hitReaction;
     private PlayerBlock block;
     private bool canDoubleJump;
+    private bool wasGround;
 
     public bool IsGrounded { get; private set; }
     public int FacingDirection => spriteRenderer.flipX ? -1 : 1;
@@ -42,6 +46,12 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         IsGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
+        if (IsGrounded && !wasGround)
+        {
+            AudioManager.Instance.PlaySfx(jumpSfx);
+        }
+        wasGround = IsGrounded;
 
         if (health.IsDead)
         {
@@ -76,6 +86,11 @@ public class PlayerMovement : MonoBehaviour
         Flip(input);
     }
 
+    public void OnFootStep()
+    {
+        AudioManager.Instance.PlaySfx(moveSfx);
+    }
+
     private void Jump()
     {
         if (!Input.GetKeyDown(KeyCode.Space)) return;
@@ -92,7 +107,7 @@ public class PlayerMovement : MonoBehaviour
 
             canDoubleJump = false;
         }
-    }
+    } 
 
     private void Flip(float input)
     {
