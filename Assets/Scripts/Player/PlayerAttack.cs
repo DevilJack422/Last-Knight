@@ -10,6 +10,7 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private float attackCoolDown = 2f;
     [SerializeField] private Transform attackPoint;
     [SerializeField] private LayerMask enemyLayer;
+    [SerializeField] private AudioClip attackSFX;
 
     private static readonly int AttackHash = Animator.StringToHash("Attack");
 
@@ -50,6 +51,7 @@ public class PlayerAttack : MonoBehaviour
     {
         lastAttackTime = Time.time;
         animator.SetTrigger(AttackHash);
+        AudioManager.Instance.PlaySfx(attackSFX);
     }
 
     public void DealDamageToEnemy()

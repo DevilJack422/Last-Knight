@@ -8,6 +8,7 @@ public class PlayerBlockEffect : MonoBehaviour
     [SerializeField] private GameObject flashPrefab;
     [Tooltip("Flash postion compare with Player when facing Right (Auto flip when look Left)")]
     [SerializeField] private Vector2 offset = new Vector2(0.6f, 0.2f);
+    [SerializeField] private AudioClip blockSFX;
 
     private PlayerBlock block;
     private PlayerMovement movement;
@@ -36,6 +37,8 @@ public class PlayerBlockEffect : MonoBehaviour
         Vector3 position = transform.position + new Vector3(offset.x * facing, offset.y, 0f);
 
         GameObject flash = Instantiate(flashPrefab, position, Quaternion.identity);
+
+        AudioManager.Instance.PlaySfx(blockSFX);
 
         if (flash.TryGetComponent(out SpriteRenderer sr))
         {

@@ -6,6 +6,7 @@ public class PlayerHitReaction : MonoBehaviour
 {
     [SerializeField] private float knockBackDuration = 0.2f;
     [SerializeField] private float verticalKnockBack = 2f;
+    [SerializeField] private AudioClip damagedSFX;
 
     private static readonly int HitHash = Animator.StringToHash("Hit");
 
@@ -36,6 +37,7 @@ public class PlayerHitReaction : MonoBehaviour
     private void OnDamage(Vector2 damageSource, float force)
     {
         animator.SetTrigger(HitHash);
+        AudioManager.Instance.PlaySfx(damagedSFX);
 
         float horizontal = Mathf.Sign(transform.position.x - damageSource.x);
         Vector2 direction = new Vector2(horizontal, verticalKnockBack);

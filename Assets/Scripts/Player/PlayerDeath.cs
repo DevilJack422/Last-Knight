@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class PlayerDeath : MonoBehaviour
 {
     [SerializeField] private float reloadDelay = 1f;
+    [SerializeField] private AudioClip deathSFX;
 
     private static readonly int DeathHash = Animator.StringToHash("Death");
 
@@ -31,6 +32,7 @@ public class PlayerDeath : MonoBehaviour
     private void OnDied()
     {
         animator.SetTrigger(DeathHash);
+        AudioManager.Instance.PlaySfx(deathSFX);
         StartCoroutine(ReloadAfterDelay());
     }
 
