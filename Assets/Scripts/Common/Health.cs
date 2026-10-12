@@ -27,11 +27,7 @@ public class Health : MonoBehaviour, IDamageable
     public void TakeDamage(int damage, Vector2 damageSource, float knockBackForce)
     {
         if (IsDead) return;
-        if (blocker != null && blocker.TryBlock(damageSource))
-        {
-            Debug.Log("Attack blocked");
-            return;
-        }
+        if (blocker != null && blocker.TryBlock(damageSource)) return;
 
         currentHealth = Mathf.Clamp(currentHealth - damage, 0, maxHealth);
 
