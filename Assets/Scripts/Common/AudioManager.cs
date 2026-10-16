@@ -1,8 +1,5 @@
 using System.Collections;
-using Unity.VisualScripting;
-using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
-using UnityEngine.AI;
 
 public class AudioManager : MonoBehaviour
 {
@@ -16,19 +13,26 @@ public class AudioManager : MonoBehaviour
     [Range(0f, 1f)] [SerializeField] private float musicVolume = 1f;
     [Range(0f, 1f)] [SerializeField] private float sFXVolume = 1f;
 
+    const string MusicKey = "MusicVolume";
+    const string SfxKey = "SfxVolume";
+
+    public float MusicVolume => musicVolume;
+    public float SfxVolume => sFXVolume;
+
     private Coroutine fadeRoutine;
 
     private void Awake() 
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
+        if (Instance != null)
         {
             Destroy(gameObject);
+            return;
         }
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+
+        sFXVolume = PlayerPrefs.GetFloat(SfxKey, sFXVolume);
+        musicVolume = PlayerPrefs.GetFloat(MusicKey, musicVolume);
 
         musicSource.loop = true;
         musicSource.volume = musicVolume;
@@ -87,10 +91,17 @@ public class AudioManager : MonoBehaviour
     {
         musicVolume = Mathf.Clamp01(value);
         musicSource.volume = musicVolume;
+        PlayerPrefs.SetFloat(MusicKey, value);
     }
 
     public void SetSFXVolume(float value)
     {
         sFXVolume = Mathf.Clamp01(value);
+        PlayerPrefs.SetFloat(SfxKey, value);
+    }
+
+    private void OnApplicationQuit()
+    {
+        PlayerPrefs.Save();
     }
 }
