@@ -1,5 +1,3 @@
-using System.Runtime.InteropServices;
-using Unity.VisualScripting;
 using UnityEngine;
 
 [RequireComponent(typeof(PlayerMovement), typeof(PlayerBlock))]
@@ -8,10 +6,11 @@ public class PlayerBlockEffect : MonoBehaviour
     [SerializeField] private GameObject flashPrefab;
     [Tooltip("Flash postion compare with Player when facing Right (Auto flip when look Left)")]
     [SerializeField] private Vector2 offset = new Vector2(0.6f, 0.2f);
-    [SerializeField] private AudioClip blockSFX;
 
     private PlayerBlock block;
     private PlayerMovement movement;
+    private string groupPlayer = "Player";
+    private string blockSound = "Player_Block";
 
     void Awake()
     {
@@ -38,7 +37,7 @@ public class PlayerBlockEffect : MonoBehaviour
 
         GameObject flash = Instantiate(flashPrefab, position, Quaternion.identity);
 
-        AudioManager.Instance.PlaySfx(blockSFX);
+        SoundManager.Instance.PlayClip(groupPlayer, blockSound);
 
         if (flash.TryGetComponent(out SpriteRenderer sr))
         {

@@ -14,6 +14,8 @@ public class PlayerHitReaction : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
     private Coroutine knockBackRoutine;
+    private string groupPlayer = "Player";
+    private string hitSound = "Player_Hit";
 
     public bool IsKnockedBack {get; private set;}
 
@@ -37,7 +39,7 @@ public class PlayerHitReaction : MonoBehaviour
     private void OnDamage(Vector2 damageSource, float force)
     {
         animator.SetTrigger(HitHash);
-        AudioManager.Instance.PlaySfx(damagedSFX);
+        SoundManager.Instance.PlayClip(groupPlayer, hitSound);
 
         float horizontal = Mathf.Sign(transform.position.x - damageSource.x);
         Vector2 direction = new Vector2(horizontal, verticalKnockBack);

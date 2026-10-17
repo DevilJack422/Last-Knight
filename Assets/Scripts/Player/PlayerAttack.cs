@@ -1,4 +1,3 @@
-using Unity.Multiplayer.Center.Common;
 using UnityEngine;
 
 [RequireComponent(typeof(PlayerMovement), typeof(Health))]
@@ -10,7 +9,6 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private float attackCoolDown = 2f;
     [SerializeField] private Transform attackPoint;
     [SerializeField] private LayerMask enemyLayer;
-    [SerializeField] private AudioClip attackSFX;
 
     private static readonly int AttackHash = Animator.StringToHash("Attack");
 
@@ -19,6 +17,8 @@ public class PlayerAttack : MonoBehaviour
     private PlayerMovement movement;
     private PlayerBlock block;
     private float lastAttackTime = -999f;
+    private string groupPlayer = "Player";
+    private string attackSound = "Player_Attack";
 
     void Awake()
     {
@@ -51,7 +51,7 @@ public class PlayerAttack : MonoBehaviour
     {
         lastAttackTime = Time.time;
         animator.SetTrigger(AttackHash);
-        AudioManager.Instance.PlaySfx(attackSFX);
+        SoundManager.Instance.PlayClip(groupPlayer, attackSound);
     }
 
     public void DealDamageToEnemy()

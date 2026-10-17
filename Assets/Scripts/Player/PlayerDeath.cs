@@ -6,12 +6,13 @@ using UnityEngine.SceneManagement;
 public class PlayerDeath : MonoBehaviour
 {
     [SerializeField] private float reloadDelay = 1f;
-    [SerializeField] private AudioClip deathSFX;
 
     private static readonly int DeathHash = Animator.StringToHash("Death");
 
     private Health health;
     private Animator animator;
+    private string groupPlayer = "Player";
+    private string deathSound = "Player_Death";
 
     void Awake()
     {
@@ -32,7 +33,7 @@ public class PlayerDeath : MonoBehaviour
     private void OnDied()
     {
         animator.SetTrigger(DeathHash);
-        AudioManager.Instance.PlaySfx(deathSFX);
+        SoundManager.Instance.PlayClip(groupPlayer, deathSound);
         StartCoroutine(ReloadAfterDelay());
     }
 

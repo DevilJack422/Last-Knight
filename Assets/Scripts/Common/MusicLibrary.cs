@@ -1,16 +1,22 @@
 using UnityEngine;
 
+[System.Serializable]
+public struct MusicTrack
+{
+    public string trackName;
+    public AudioClip clip;
+}
+
 public class MusicLibrary : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [SerializeField] private MusicTrack[] tracks;
 
-    // Update is called once per frame
-    void Update()
+    public AudioClip GetClipFromName(string trackName)
     {
-        
+        foreach (var track in tracks)
+        {
+            if (track.trackName == trackName) return track.clip;
+        }
+        return null;
     }
 }

@@ -7,9 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 5f;
-    [SerializeField] private AudioClip moveSfx;
     [SerializeField] private float jumpForce = 10f;
-    [SerializeField] private AudioClip jumpSfx;
     [SerializeField, Range(0f, 1f)] private float doubleJumpMultiplier = 0.75f;
 
     [Header("Ground Check")]
@@ -29,6 +27,9 @@ public class PlayerMovement : MonoBehaviour
     private PlayerBlock block;
     private bool canDoubleJump;
     private bool wasGround;
+    private string groupPlayer = "Player";
+    private string movementSound = "Player_Movement";
+    private string jumpSound = "Player_Jump";
 
     public bool IsGrounded { get; private set; }
     public int FacingDirection => spriteRenderer.flipX ? -1 : 1;
@@ -49,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (IsGrounded && !wasGround)
         {
-            AudioManager.Instance.PlaySfx(jumpSfx);
+            SoundManager.Instance.PlayClip(groupPlayer, jumpSound);
         }
         wasGround = IsGrounded;
 
@@ -88,7 +89,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnFootStep()
     {
-        AudioManager.Instance.PlaySfx(moveSfx);
+        SoundManager.Instance.PlayClip(groupPlayer, movementSound);
     }
 
     private void Jump()
