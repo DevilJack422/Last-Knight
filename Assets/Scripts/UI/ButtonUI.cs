@@ -6,7 +6,7 @@ public class ButtonUI : MonoBehaviour
 {
     [SerializeField] private string gameplayScene = "Gameplay";
 
-    public void NewGameButton()
+    public void StartButton()
     {
         SceneManager.LoadScene(gameplayScene);
     }
