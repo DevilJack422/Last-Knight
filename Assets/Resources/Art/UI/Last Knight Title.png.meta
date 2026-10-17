@@ -1,0 +1,2340 @@
+fileFormatVersion: 2
+guid: c989cbdbee930994ca73486bce5864b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8917608798510007264
+    second: Last Knight Title_0
+  - first:
+      213: 6746207401536925147
+    second: Last Knight Title_1
+  - first:
+      213: -7677429893458694527
+    second: Last Knight Title_2
+  - first:
+      213: 4070740674154463771
+    second: Last Knight Title_3
+  - first:
+      213: 2377552394229753668
+    second: Last Knight Title_4
+  - first:
+      213: 8537672459667680223
+    second: Last Knight Title_5
+  - first:
+      213: 2777844218325597701
+    second: Last Knight Title_6
+  - first:
+      213: -4516234595772073015
+    second: Last Knight Title_7
+  - first:
+      213: 2979528735055422303
+    second: Last Knight Title_8
+  - first:
+      213: 3463951834394024358
+    second: Last Knight Title_9
+  - first:
+      213: 4280646055343633266
+    second: Last Knight Title_10
+  - first:
+      213: -9010690202553419758
+    second: Last Knight Title_11
+  - first:
+      213: -2326549035376562930
+    second: Last Knight Title_12
+  - first:
+      213: -841735397126070631
+    second: Last Knight Title_13
+  - first:
+      213: -551842305433062718
+    second: Last Knight Title_14
+  - first:
+      213: 1201836954203845140
+    second: Last Knight Title_15
+  - first:
+      213: 4196482419376802822
+    second: Last Knight Title_16
+  - first:
+      213: 6378068500332865174
+    second: Last Knight Title_17
+  - first:
+      213: -1774345367529243318
+    second: Last Knight Title_18
+  - first:
+      213: -5005509368546281398
+    second: Last Knight Title_19
+  - first:
+      213: 7955578740995644513
+    second: Last Knight Title_20
+  - first:
+      213: -4281345773913049475
+    second: Last Knight Title_21
+  - first:
+      213: -6602021045778251562
+    second: Last Knight Title_22
+  - first:
+      213: -4321999584059288473
+    second: Last Knight Title_23
+  - first:
+      213: 1434144185317611224
+    second: Last Knight Title_24
+  - first:
+      213: 716624854353869820
+    second: Last Knight Title_25
+  - first:
+      213: -5973030975316437234
+    second: Last Knight Title_26
+  - first:
+      213: 7407393307445424267
+    second: Last Knight Title_27
+  - first:
+      213: -5187462720083874824
+    second: Last Knight Title_28
+  - first:
+      213: 1389748332755504727
+    second: Last Knight Title_29
+  - first:
+      213: 2142122629149936084
+    second: Last Knight Title_30
+  - first:
+      213: -563005866219886527
+    second: Last Knight Title_31
+  - first:
+      213: 6741270735415947942
+    second: Last Knight Title_32
+  - first:
+      213: -977613864564021193
+    second: Last Knight Title_33
+  - first:
+      213: -2444568138310323851
+    second: Last Knight Title_34
+  - first:
+      213: -5954806570373959586
+    second: Last Knight Title_35
+  - first:
+      213: -6333738759680252623
+    second: Last Knight Title_36
+  - first:
+      213: 721350485390645477
+    second: Last Knight Title_37
+  - first:
+      213: -4961479215483693691
+    second: Last Knight Title_38
+  - first:
+      213: -4909024953863028952
+    second: Last Knight Title_39
+  - first:
+      213: -3900742895398835151
+    second: Last Knight Title_40
+  - first:
+      213: 1076151997217565726
+    second: Last Knight Title_41
+  - first:
+      213: -6261377707010552154
+    second: Last Knight Title_42
+  - first:
+      213: 6415733464031198954
+    second: Last Knight Title_43
+  - first:
+      213: -2222183775332703160
+    second: Last Knight Title_44
+  - first:
+      213: -2471687265573286881
+    second: Last Knight Title_45
+  - first:
+      213: -5267185314169767705
+    second: Last Knight Title_46
+  - first:
+      213: 4978548863277840179
+    second: Last Knight Title_47
+  - first:
+      213: 8433463504797242857
+    second: Last Knight Title_48
+  - first:
+      213: -5968514709308467950
+    second: Last Knight Title_49
+  - first:
+      213: -2139788320324175652
+    second: Last Knight Title_50
+  - first:
+      213: -6171602286250760564
+    second: Last Knight Title_51
+  - first:
+      213: 5764984582212282975
+    second: Last Knight Title_52
+  - first:
+      213: 6674285117864361776
+    second: Last Knight Title_53
+  - first:
+      213: 7119449735781111786
+    second: Last Knight Title_54
+  - first:
+      213: 7134691244448666957
+    second: Last Knight Title_55
+  - first:
+      213: 2806958115846333264
+    second: Last Knight Title_56
+  - first:
+      213: 2413216881554533060
+    second: Last Knight Title_57
+  - first:
+      213: -6288789068699796632
+    second: Last Knight Title_58
+  - first:
+      213: -6502377103315843971
+    second: Last Knight Title_59
+  - first:
+      213: 4993941519456770342
+    second: Last Knight Title_60
+  - first:
+      213: 5010508907585457450
+    second: Last Knight Title_61
+  - first:
+      213: 4993222453152277956
+    second: Last Knight Title_62
+  - first:
+      213: -8690401275917228574
+    second: Last Knight Title_63
+  - first:
+      213: 7278176755357553955
+    second: Last Knight Title_64
+  - first:
+      213: -8278326755579315949
+    second: Last Knight Title_65
+  - first:
+      213: -656155010083473466
+    second: Last Knight Title_66
+  - first:
+      213: -6008521491985644010
+    second: Last Knight Title_67
+  - first:
+      213: 4137146572260728815
+    second: Last Knight Title_68
+  - first:
+      213: 4689934307013981822
+    second: Last Knight Title_69
+  - first:
+      213: -4986920897071799734
+    second: Last Knight Title_70
+  - first:
+      213: 2439404597195459955
+    second: Last Knight Title_71
+  - first:
+      213: 708184631709016446
+    second: Last Knight Title_72
+  - first:
+      213: 2884929891604934156
+    second: Last Knight Title_73
+  - first:
+      213: 4794907916310981220
+    second: Last Knight Title_74
+  - first:
+      213: 8965536277262693688
+    second: Last Knight Title_75
+  - first:
+      213: -2892933474918418814
+    second: Last Knight Title_76
+  - first:
+      213: 1677704986923918548
+    second: Last Knight Title_77
+  - first:
+      213: -873781109223575430
+    second: Last Knight Title_78
+  - first:
+      213: 2191791830777737513
+    second: Last Knight Title_79
+  - first:
+      213: 2989085635413492041
+    second: Last Knight Title_80
+  - first:
+      213: -449220321733345483
+    second: Last Knight Title_81
+  - first:
+      213: 6007935008074756374
+    second: Last Knight Title_82
+  - first:
+      213: -2015821867029604018
+    second: Last Knight Title_83
+  - first:
+      213: -3636495629456492783
+    second: Last Knight Title_84
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Last Knight Title_0
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 733
+        width: 47
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3461964f5b1cb70800000000000000
+      internalID: 8917608798510007264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_1
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 846
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd28b583e75f9d50800000000000000
+      internalID: 6746207401536925147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_2
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 689
+        width: 48
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18eed6c403a447590800000000000000
+      internalID: -7677429893458694527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_3
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 831
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1206bf431d2e7830800000000000000
+      internalID: 4070740674154463771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_4
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 121
+        width: 603
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447a1f44e43cef020800000000000000
+      internalID: 2377552394229753668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_5
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 688
+        width: 11
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdba0271ed7eb7670800000000000000
+      internalID: 8537672459667680223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_6
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 685
+        width: 14
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e7ba25992ec8620800000000000000
+      internalID: 2777844218325597701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_7
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 734
+        width: 26
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbfcac209c1351c0800000000000000
+      internalID: -4516234595772073015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_8
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 725
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f532c0b2999695920800000000000000
+      internalID: 2979528735055422303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_9
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 387
+        width: 226
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a95e1037dd621030800000000000000
+      internalID: 3463951834394024358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_10
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 708
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2733fe158e8e76b30800000000000000
+      internalID: 4280646055343633266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 608
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218f5bf500993f280800000000000000
+      internalID: -9010690202553419758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_12
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 423
+        width: 199
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d2ad99aff66bfd0800000000000000
+      internalID: -2326549035376562930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_13
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 140
+        width: 533
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e9d63bd1e8154f0800000000000000
+      internalID: -841735397126070631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_14
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 461
+        width: 116
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c231a4d8567758f0800000000000000
+      internalID: -551842305433062718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_15
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 613
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412f14d9758cda010800000000000000
+      internalID: 1201836954203845140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_16
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 376
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c4029c686ec3a30800000000000000
+      internalID: 4196482419376802822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_17
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 226
+        width: 32
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696e2733283738850800000000000000
+      internalID: 6378068500332865174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 246
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d3f830a424067e0800000000000000
+      internalID: -1774345367529243318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_19
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 251
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48b8e7efbbd88ab0800000000000000
+      internalID: -5005509368546281398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 237
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16cd1b7e6b4e76e60800000000000000
+      internalID: 7955578740995644513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_21
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 211
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76fa41c3ba9594c0800000000000000
+      internalID: -4281345773913049475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_22
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 218
+        width: 49
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d00cbe76d8e064a0800000000000000
+      internalID: -6602021045778251562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_23
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 138
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76492c8f64c2504c0800000000000000
+      internalID: -4321999584059288473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_24
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 170
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d65c82c98a17e310800000000000000
+      internalID: 1434144185317611224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_25
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 166
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb7af81286f1f900800000000000000
+      internalID: 716624854353869820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_26
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 176
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07dbd379f78b1da0800000000000000
+      internalID: -5973030975316437234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_27
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 122
+        width: 69
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80f3e197f85cc660800000000000000
+      internalID: 7407393307445424267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_28
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 171
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fba1d3f32e6208b0800000000000000
+      internalID: -5187462720083874824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_29
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 175
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e4515deb0694310800000000000000
+      internalID: 1389748332755504727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_30
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 174
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9cec78e295abd10800000000000000
+      internalID: 2142122629149936084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_31
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 154
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148a089c52dcf28f0800000000000000
+      internalID: -563005866219886527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_32
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 154
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2343f540ecd8d50800000000000000
+      internalID: 6741270735415947942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_33
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 166
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7382a2bae51de62f0800000000000000
+      internalID: -977613864564021193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_34
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 157
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57176c6ea36231ed0800000000000000
+      internalID: -2444568138310323851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_35
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 144
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50b2b269f64c5da0800000000000000
+      internalID: -5954806570373959586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_36
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 20
+        width: 193
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135a229d72a0a18a0800000000000000
+      internalID: -6333738759680252623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_37
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 136
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8d340d170c20a00800000000000000
+      internalID: 721350485390645477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_38
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 104
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5855c98c0f8452bb0800000000000000
+      internalID: -4961479215483693691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_39
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 143
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f377740d3afdbb0800000000000000
+      internalID: -4909024953863028952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_40
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 98
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13caf9fe007cdd9c0800000000000000
+      internalID: -3900742895398835151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_41
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 117
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1cea7e2a824fee00800000000000000
+      internalID: 1076151997217565726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_42
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 92
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae0611562e1b19a0800000000000000
+      internalID: -6261377707010552154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_43
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 82
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee7a21f793490950800000000000000
+      internalID: 6415733464031198954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_44
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 24
+        width: 42
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84468a541a73921e0800000000000000
+      internalID: -2222183775332703160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_45
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 79
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cc5ab078dc2bdd0800000000000000
+      internalID: -2471687265573286881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_46
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 0
+        width: 87
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8b1ce0dd237e6b0800000000000000
+      internalID: -5267185314169767705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_47
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 64
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337b99c40db571540800000000000000
+      internalID: 4978548863277840179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_48
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 0
+        width: 79
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e519ad006ea90570800000000000000
+      internalID: 8433463504797242857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_49
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 70
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21599f29e739b2da0800000000000000
+      internalID: -5968514709308467950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_50
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 70
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd83c881cd1fd42e0800000000000000
+      internalID: -2139788320324175652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_51
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 40
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86e8015b601a5aa0800000000000000
+      internalID: -6171602286250760564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_52
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 60
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5aed5eeee6510050800000000000000
+      internalID: 5764984582212282975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_53
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 23
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f3bfbe3f2df9c50800000000000000
+      internalID: 6674285117864361776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_54
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 54
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae75b7170dd5dc260800000000000000
+      internalID: 7119449735781111786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_55
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 63
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45d377b2e3830360800000000000000
+      internalID: 7134691244448666957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_56
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 36
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053ab62d88154f620800000000000000
+      internalID: 2806958115846333264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_57
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 46
+        width: 61
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4caa80fc7f77d7120800000000000000
+      internalID: 2413216881554533060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_58
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 0
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bf9c459abb9b8a0800000000000000
+      internalID: -6288789068699796632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_59
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 0
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74c931c97ae2c5a0800000000000000
+      internalID: -6502377103315843971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_60
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6299b485a5b0e4540800000000000000
+      internalID: 4993941519456770342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_61
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 3
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2dcf8cfd47e88540800000000000000
+      internalID: 5010508907585457450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_62
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 16
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c565acad5d7b4540800000000000000
+      internalID: 4993222453152277956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_63
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 9
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e52a51551e756780800000000000000
+      internalID: -8690401275917228574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_64
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 13
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32597939237410560800000000000000
+      internalID: 7278176755357553955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_65
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319351f1da97d1d80800000000000000
+      internalID: -8278326755579315949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_66
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7b16aae7ed4e6f0800000000000000
+      internalID: -656155010083473466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_67
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 0
+        width: 99
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61645ec99817d9ca0800000000000000
+      internalID: -6008521491985644010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_68
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 0
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef535f43e81a6930800000000000000
+      internalID: 4137146572260728815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_69
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 15
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e767c75676ef51140800000000000000
+      internalID: 4689934307013981822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_70
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 0
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42201fadd5eacab0800000000000000
+      internalID: -4986920897071799734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_71
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 0
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d4a4f7e818ad120800000000000000
+      internalID: 2439404597195459955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_72
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 15
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e712860ab2af3d900800000000000000
+      internalID: 708184631709016446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_73
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 0
+        width: 61
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ea40f8374590820800000000000000
+      internalID: 2884929891604934156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_74
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46aac6a685fea8240800000000000000
+      internalID: 4794907916310981220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_75
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 28
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835fe132ebbfb6c70800000000000000
+      internalID: 8965536277262693688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_76
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 34
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286b6acf45c3ad7d0800000000000000
+      internalID: -2892933474918418814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_77
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 45
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d46087fbc7684710800000000000000
+      internalID: 1677704986923918548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_78
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 30
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70384de5b4bfd3f0800000000000000
+      internalID: -873781109223575430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_79
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 25
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9213c17be0fca6e10800000000000000
+      internalID: 2191791830777737513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_80
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 0
+        width: 63
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9414b0e6c8d5b7920800000000000000
+      internalID: 2989085635413492041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_81
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 0
+        width: 206
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f72395f7c04c9f0800000000000000
+      internalID: -449220321733345483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_82
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 42
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611fde5fe09706350800000000000000
+      internalID: 6007935008074756374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_83
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 31
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e495c3531bc5604e0800000000000000
+      internalID: -2015821867029604018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last Knight Title_84
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 24
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1173cf2fd72988dc0800000000000000
+      internalID: -3636495629456492783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Last Knight Title_0: 8917608798510007264
+      Last Knight Title_1: 6746207401536925147
+      Last Knight Title_10: 4280646055343633266
+      Last Knight Title_11: -9010690202553419758
+      Last Knight Title_12: -2326549035376562930
+      Last Knight Title_13: -841735397126070631
+      Last Knight Title_14: -551842305433062718
+      Last Knight Title_15: 1201836954203845140
+      Last Knight Title_16: 4196482419376802822
+      Last Knight Title_17: 6378068500332865174
+      Last Knight Title_18: -1774345367529243318
+      Last Knight Title_19: -5005509368546281398
+      Last Knight Title_2: -7677429893458694527
+      Last Knight Title_20: 7955578740995644513
+      Last Knight Title_21: -4281345773913049475
+      Last Knight Title_22: -6602021045778251562
+      Last Knight Title_23: -4321999584059288473
+      Last Knight Title_24: 1434144185317611224
+      Last Knight Title_25: 716624854353869820
+      Last Knight Title_26: -5973030975316437234
+      Last Knight Title_27: 7407393307445424267
+      Last Knight Title_28: -5187462720083874824
+      Last Knight Title_29: 1389748332755504727
+      Last Knight Title_3: 4070740674154463771
+      Last Knight Title_30: 2142122629149936084
+      Last Knight Title_31: -563005866219886527
+      Last Knight Title_32: 6741270735415947942
+      Last Knight Title_33: -977613864564021193
+      Last Knight Title_34: -2444568138310323851
+      Last Knight Title_35: -5954806570373959586
+      Last Knight Title_36: -6333738759680252623
+      Last Knight Title_37: 721350485390645477
+      Last Knight Title_38: -4961479215483693691
+      Last Knight Title_39: -4909024953863028952
+      Last Knight Title_4: 2377552394229753668
+      Last Knight Title_40: -3900742895398835151
+      Last Knight Title_41: 1076151997217565726
+      Last Knight Title_42: -6261377707010552154
+      Last Knight Title_43: 6415733464031198954
+      Last Knight Title_44: -2222183775332703160
+      Last Knight Title_45: -2471687265573286881
+      Last Knight Title_46: -5267185314169767705
+      Last Knight Title_47: 4978548863277840179
+      Last Knight Title_48: 8433463504797242857
+      Last Knight Title_49: -5968514709308467950
+      Last Knight Title_5: 8537672459667680223
+      Last Knight Title_50: -2139788320324175652
+      Last Knight Title_51: -6171602286250760564
+      Last Knight Title_52: 5764984582212282975
+      Last Knight Title_53: 6674285117864361776
+      Last Knight Title_54: 7119449735781111786
+      Last Knight Title_55: 7134691244448666957
+      Last Knight Title_56: 2806958115846333264
+      Last Knight Title_57: 2413216881554533060
+      Last Knight Title_58: -6288789068699796632
+      Last Knight Title_59: -6502377103315843971
+      Last Knight Title_6: 2777844218325597701
+      Last Knight Title_60: 4993941519456770342
+      Last Knight Title_61: 5010508907585457450
+      Last Knight Title_62: 4993222453152277956
+      Last Knight Title_63: -8690401275917228574
+      Last Knight Title_64: 7278176755357553955
+      Last Knight Title_65: -8278326755579315949
+      Last Knight Title_66: -656155010083473466
+      Last Knight Title_67: -6008521491985644010
+      Last Knight Title_68: 4137146572260728815
+      Last Knight Title_69: 4689934307013981822
+      Last Knight Title_7: -4516234595772073015
+      Last Knight Title_70: -4986920897071799734
+      Last Knight Title_71: 2439404597195459955
+      Last Knight Title_72: 708184631709016446
+      Last Knight Title_73: 2884929891604934156
+      Last Knight Title_74: 4794907916310981220
+      Last Knight Title_75: 8965536277262693688
+      Last Knight Title_76: -2892933474918418814
+      Last Knight Title_77: 1677704986923918548
+      Last Knight Title_78: -873781109223575430
+      Last Knight Title_79: 2191791830777737513
+      Last Knight Title_8: 2979528735055422303
+      Last Knight Title_80: 2989085635413492041
+      Last Knight Title_81: -449220321733345483
+      Last Knight Title_82: 6007935008074756374
+      Last Knight Title_83: -2015821867029604018
+      Last Knight Title_84: -3636495629456492783
+      Last Knight Title_9: 3463951834394024358
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
