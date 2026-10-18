@@ -11,6 +11,7 @@ public class PlayerBlock : MonoBehaviour, IDamageBlocker
     [SerializeField] private bool onlyBlockFont = false;
     [Tooltip("ON: Block an attack and got breaked, OFF: Can block as long as J is pressed")]
     [SerializeField] private bool breakOnBlockedHit = true;
+    [SerializeField] private ParticleSystem blockEffect;
     
 
     private static readonly int IsBlockingHash = Animator.StringToHash("isBlocking");
@@ -20,9 +21,10 @@ public class PlayerBlock : MonoBehaviour, IDamageBlocker
     private PlayerHitReaction hitReaction;
     private Animator animator;
     private bool hasBlockingParam;
-
     private float coolDownEndTime;
     private bool ignoreHeldMove;
+    private string groupPlayer = "Player";
+    private string blockSound = "Player_Block";
 
     public event Action Blocked;
 
@@ -126,6 +128,8 @@ public class PlayerBlock : MonoBehaviour, IDamageBlocker
         }
 
         Blocked?.Invoke();
+        PlayBlockEffect();
+        SoundManager.Instance.PlayClip(groupPlayer, blockSound);
 
         if (breakOnBlockedHit)
         {
@@ -149,5 +153,17 @@ public class PlayerBlock : MonoBehaviour, IDamageBlocker
             if (p.name == parameterName) return true;
         }
         return false;
+    }
+
+    private void PlayBlockEffect()
+    {
+        if (blockEffect == null) return;
+
+        Vector3 pos = blockEffect.transform.localPosition;
+        pos.x = Mathf.Abs(pos.x) * movement.FacingDirection;
+        blockEffect.transform.localPosition = pos;
+
+        blockEffect.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+        blockEffect.Play();
     }
 }
