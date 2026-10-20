@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a4cb86485246fd54f8dcccdb0ccc8843
+guid: 76ff794a65c7cb24391e2a6a7e3c6d1a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -850936773669332776
-    second: lucid-origin_Dark_fantasy_2D_game_art_moodboard_a_medieval_kingdom_devastated_by_a_Demon_King-2_0
+      213: -6348645750264161129
+    second: title image_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lucid-origin_Dark_fantasy_2D_game_art_moodboard_a_medieval_kingdom_devastated_by_a_Demon_King-2_0
+      name: title image_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1376
-        height: 768
+        width: 1774
+        height: 887
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d85f17438dd034f0800000000000000
-      internalID: -850936773669332776
+      spriteID: 79c16b2a35415e7a0800000000000000
+      internalID: -6348645750264161129
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      lucid-origin_Dark_fantasy_2D_game_art_moodboard_a_medieval_kingdom_devastated_by_a_Demon_King-2_0: -850936773669332776
+      title image_0: -6348645750264161129
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

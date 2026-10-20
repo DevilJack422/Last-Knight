@@ -13,11 +13,13 @@ public class PlayerInteractor : MonoBehaviour
     void Awake()
     {
         health = GetComponent<Health>();
+
+        SetIcon(false);
     }
 
     void Update()
     {
-        if (health.IsDead || health != null)
+        if (health.IsDead || health == null)
         {
             SetIcon(false);
             return;
@@ -63,10 +65,15 @@ public class PlayerInteractor : MonoBehaviour
     {
         for (int i = inRange.Count - 1; i >= 0; i--)
         {
-            if (inRange[i].CanInteract)
+            IInteractable interactable = inRange[i];
+
+            if (interactable == null)
             {
-                return inRange[i];
+                inRange.RemoveAt(i);
+                continue;
             }
+
+            if (interactable.CanInteract) return interactable;
         }
         return null;
     }
