@@ -31,6 +31,8 @@ public class ChestInteraction : MonoBehaviour, IInteractable
     {
         if (!CanInteract) return;
 
+        isOpened = true;
+
         if (animator != null)
         {
             animator.SetTrigger(OpenHash);

@@ -146,7 +146,7 @@ public class PlayerBlock : MonoBehaviour, IDamageBlocker
         }
     }
 
-    private bool HasAnimatorParameter(String parameterName)
+    private bool HasAnimatorParameter(string parameterName)
     {
         foreach (AnimatorControllerParameter p in animator.parameters)
         {

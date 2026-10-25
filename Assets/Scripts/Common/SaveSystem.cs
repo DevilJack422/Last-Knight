@@ -1,65 +1,59 @@
-using System.Collections.Generic;
+using System;
 using System.IO;
+using UnityEditor.PackageManager;
 using UnityEngine;
 
-[System.Serializable]
-public class SaveData
+public class SaveSystem : MonoBehaviour
 {
-    public List<string> openedChest = new List<string>();
-}
+    private const int MaxSaveSlot = 3;
 
-public static class SaveSystem
-{
-    private static SaveData data;
-    private static string SavePath => Path.Combine(Application.persistentDataPath, "save.json");
-
-    private static SaveData Data
+    private static string GetPath(int slot)
     {
-        get
+        if (slot < 1 || slot > MaxSaveSlot)
         {
-            if (data == null) Load();
-            return data;
+            throw new ArgumentOutOfRangeException(nameof(slot));
+        }
+
+        return Path.Combine(Application.persistentDataPath, $"save_slot_{slot}.json");
+    }
+
+    public static bool HasSave(int slot) => File.Exists(GetPath(slot));
+
+    public static SaveData Load(int slot)
+    {
+        string path = GetPath(slot);
+
+        if (!File.Exists(path))
+        {
+            return null;
+        }
+
+        try
+        {
+            string json = File.ReadAllText(path);
+            return JsonUtility.FromJson<SaveData>(json);
+        } 
+        catch (Exception e)
+        {
+            Debug.LogError($"Failed to load slot {slot}: {e.Message}");
+            return null;
         }
     }
 
-    public static bool IsChestOpened(string id)
+    public static bool Save(int slot, SaveData data)
     {
-        return Data.openedChest.Contains(id);
-    }
+        if (data == null) return false;
 
-    public static void MarkChestOpened(string id)
-    {
-        if (Data.openedChest.Contains(id)) return;
-
-        Data.openedChest.Add(id);
-        Save();
-    }
-
-    public static void Save()
-    {
-        File.WriteAllText(SavePath, JsonUtility.ToJson(Data, true));
-    }
-
-    public static void Load()
-    {
-        Debug.Log($"SaveSystem: file save locate in {SavePath}");
-
-        if (File.Exists(SavePath))
+        try
         {
-            try
-            {
-                data = JsonUtility.FromJson<SaveData>(File.ReadAllText(SavePath));
-            }
-            catch (System.Exception e)
-            {
-                Debug.LogWarning($"SaveSystem: file save error, create new. ({e.Message})");
-            }
+            string json = JsonUtility.ToJson(data, true);
+            File.WriteAllText(GetPath(slot), json);
+            return true;
         }
-    }
-
-    public static void DeleteSave()
-    {
-        data = new SaveData();
-        if (File.Exists(SavePath)) File.Delete(SavePath);
+        catch (Exception e)
+        {
+            Debug.LogError($"Failed to save slot {slot}: {e.Message}");
+            return false;
+        }
     }
 }
