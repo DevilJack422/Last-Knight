@@ -556,11 +556,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14a4efb8d74904646ac436c826ad5eb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChestInteraction
-  openedChestSprite: {fileID: -3888567672798316567, guid: 19e07f9d107e445408633f50457d456e, type: 3}
-  loots: []
+  itemPrefab: {fileID: 8839570950578880017, guid: ccb7c945e5f961544a4aee1aeb4fc63c, type: 3}
   spawnPoint: {fileID: 2114674937}
-  launchForce: 5
-  spreadAngle: 60
 --- !u!1 &467661096
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,7 +629,7 @@ Transform:
   m_GameObject: {fileID: 467661096}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.4088135, y: 0.7251998, z: -10}
+  m_LocalPosition: {x: -6.4112463, y: 0.7251998, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5784,7 +5781,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.7025833, y: 0.7251954, z: -10}
+  m_LocalPosition: {x: -1.7199602, y: 0.7251954, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

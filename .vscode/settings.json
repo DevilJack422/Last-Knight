@@ -78,7 +78,7 @@
     "editor.lineHeight": 1.5,
     "editor.fontLigatures": false,
     "monolisa.commercialCodeSuffix": "",
-    "workbench.colorTheme": "Frostpane Dark",
+    "workbench.colorTheme": "Gradient Nitro Glass",
     "workbench.colorCustomizations": {
         "[MonoLisa Dark][__monolisa_theme_tuning_owner_v1_17cf9558__]": {
             "activityBar.background": "#122a40",
