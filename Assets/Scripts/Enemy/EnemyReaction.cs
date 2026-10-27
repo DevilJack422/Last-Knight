@@ -10,6 +10,9 @@ public class EnemyReaction : MonoBehaviour
 
     private Health health;
     private Animator animator;
+    private string soundId = "Enemy";
+    private string enemyHit = "Enemy_Hit";
+    private string enemyDeath = "Enemy_Death";
 
     void Awake()
     {
@@ -32,11 +35,13 @@ public class EnemyReaction : MonoBehaviour
     private void OnDamage(Vector2 damageSource, float force)
     {
         animator.SetTrigger(HitDash);
+        SoundManager.Instance.PlayClip(soundId, enemyHit);
     }
 
     private void OnDie()
     {
         animator.SetTrigger(DeathHash);
+        SoundManager.Instance.PlayClip(soundId, enemyDeath);
         Destroy(gameObject, deathDelay);
     }
 }

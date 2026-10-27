@@ -32,6 +32,9 @@ public class SlimeAI : MonoBehaviour
     private Animator animator;
     private Health health;
     private Health playerHealth;
+    private string soundId = "Slime";
+    private string slimeAttack = "Slime_Attack";
+    private string slimeMovement = "Slime_Movement";
 
     void Awake()
     {
@@ -119,6 +122,7 @@ public class SlimeAI : MonoBehaviour
     private IEnumerator AttackRoutine()
     {
         animator.SetTrigger(AttackHash);
+        SoundManager.Instance.PlayClip(soundId, slimeAttack);
         FaceToward(player.position.x);
 
         yield return new WaitForSeconds(attackCooldown);
@@ -165,5 +169,10 @@ public class SlimeAI : MonoBehaviour
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(attackPoint.position, attackRange);
         }
+    }
+
+    public void OnCrawlStep()
+    {
+        SoundManager.Instance.PlayClip(soundId, slimeMovement);
     }
 }
